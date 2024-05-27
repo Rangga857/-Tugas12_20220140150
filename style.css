@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #242527;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #1a8139;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #077533;
+}
+
+
+/* Additional form spacing */
+
+form p {
+    margin-bottom: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
